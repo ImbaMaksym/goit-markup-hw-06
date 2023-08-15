@@ -1,0 +1,293 @@
+@media screen and (min-width: 767px) and (max-width: 1157px) {
+    .container {
+        width: 582px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    /* MODAL */
+    .modal-window {
+        width: 408px;
+        padding: 72px 24px 24px 24px;
+    }
+
+    /* FS */
+    .fist-section {
+        padding: 112px 0;
+        max-width: 1440px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-plan.jpg);
+    }
+
+    @media (min-device-pixel-ratio:2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .fist-section {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-plan-2х.jpg);
+        }
+    }
+
+    .main-header {
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 1.12px;
+        max-width: 496px;
+        margin: 0 auto;
+    }
+
+    .second-section-ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+        row-gap: 72px;
+    }
+
+    .second-list-div {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .second-section-header {
+        text-align: left;
+    }
+
+    .team-ul {
+        flex-direction: row;
+        gap: 24px;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 64px;
+    }
+
+    .team-person {
+        flex-basis: calc((100% - 1 * 24px) / 2);
+        margin: 0;
+        max-width: 264px;
+    }
+
+    .customers-list {
+        gap: 24px;
+    }
+
+    .customers-item {
+        width: calc((100% - 48px) / 3);
+    }
+
+    .footed-div {
+        margin: 0;
+    }
+
+    .footed-div-1 {
+        margin: 0;
+    }
+
+    .footed-div-2 {
+        margin: 0;
+    }
+
+    .footer-flex {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+        row-gap: 72px;
+    }
+
+    .footer-logo {
+        margin: 0;
+        display: inline-block;
+        margin-bottom: 16px;
+    }
+
+    .footer-text {
+        margin: 0;
+    }
+
+    .social-media {
+        text-align: left;
+    }
+
+    .footer-form {
+        display: flex;
+        gap: 24px;
+        flex-direction: row;
+    }
+
+    .footer-email-input {
+        width: 264px;
+    }
+
+    .footer-button {
+        min-width: 165px;
+    }
+
+    .header_div {
+        justify-content: space-between;
+    }
+
+    .header-list {
+        display: flex;
+        gap: 40px;
+    }
+
+    .header-address {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 24px 0;
+
+    }
+
+    header .container {
+        width: auto;
+    }
+
+    .header-flex {
+        padding: 0;
+    }
+
+    .mobile-menu-open,
+    .mobile-menu-container {
+        display: none;
+    }
+
+    .header-logo {
+        margin-right: 120px;
+    }
+}
+
+
+@media screen and (min-width: 1158px) {
+
+    /* FS */
+    .fist-section {
+        padding: 188px 0;
+        max-width: 1440px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    }
+
+    @media (min-device-pixel-ratio:2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .fist-section {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-2x.jpg);
+        }
+    }
+
+    /* SS */
+    .second-section {
+        padding: 120px 0;
+    }
+
+    .second-section-ul {
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .second-div-icons {
+        display: flex;
+    }
+
+    .second-list-div {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .second-section-header {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+        margin-bottom: 8px;
+    }
+
+    .text-second-section {
+        font-weight: 500;
+    }
+
+    .portfolio-section {
+        padding-bottom: 120px;
+        display: flex;
+    }
+
+    .team-section {
+        padding: 120px 0;
+    }
+
+    .team-ul {
+        flex-direction: row;
+        gap: 24px;
+        justify-content: center;
+    }
+
+    .team-person {
+        flex-basis: calc((100% - 3 * 24px) / 4);
+    }
+
+    .customers-section {
+        padding: 120px 0;
+    }
+
+    .customers-list {
+        flex-wrap: nowrap;
+    }
+
+    .customers-item {
+        width: calc((100% - 120px) / 6);
+    }
+
+
+    .footed-div-1 {
+        margin-right: 120px;
+    }
+
+    .footed-div-2 {
+        margin-right: 80px;
+    }
+
+    .footer-flex {
+        flex-direction: row;
+        gap: 0;
+    }
+
+    .footer-logo {
+        margin: 0;
+        display: inline-block;
+        margin-bottom: 16px;
+    }
+
+    .footer-text {
+        margin: 0;
+    }
+
+    .social-media {
+        text-align: left;
+    }
+
+    .footer-form {
+        display: flex;
+        gap: 24px;
+        flex-direction: row;
+    }
+
+    .footer-email-input {
+        width: 264px;
+    }
+
+    .footer-button {
+        min-width: 165px;
+    }
+
+    .header-address {
+        flex-wrap: nowrap;
+        margin-left: 332px;
+        gap: 40px;
+        flex-direction: row;
+    }
+
+    .header-flex {
+        margin: 0;
+    }
+
+    .header-logo {
+        margin-right: 76px;
+    }
+}
