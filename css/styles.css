@@ -335,6 +335,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    max-width: 328px;
 }
 
 .mobile-icon-links {
